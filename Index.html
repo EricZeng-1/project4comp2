@@ -1,0 +1,243 @@
+<html>
+
+<head>
+    <body style="background-color:black;">
+    <style>
+    div{
+width: 300px;
+height: 30px;
+padding: 3px;
+border: 5px solid #9A2A2A;
+background-color: #9A2A2A;
+margin: 0;
+    }
+        font1{
+            font-size: 20;
+        }
+        text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #111111;
+}
+
+.card {
+  position: relative;
+  width: 1000px;
+  height: 460px;
+  color: #fff;
+  background: transparent;
+  overflow: hidden;
+  border-top: 1px solid #800000;
+  border-right: 1px solid #800000;
+  border-bottom: 1px solid #800000;
+  border-left: 1px solid #800000;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+p {
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+span {
+  position: absolute;
+  border-radius: 100px;
+}
+
+.top {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    transparent 50%,
+    rgb(128, 0, 0),
+    rgba(128, 0, 0, 0.5)
+  );
+}
+
+.bottom {
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    rgb(128, 0, 0),
+    rgba(128, 0, 0, 0.5),
+    transparent 50%
+  );
+}
+
+.right {
+  top: 0;
+  right: 0;
+  width: 5px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 30%,
+    rgb(128, 0, 0),
+    rgba(128, 0, 0, 0.5)
+  );
+}
+
+.left {
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    rgb(128, 0, 0),
+    rgba(128, 0, 0, 0.5),
+    transparent 70%
+  );
+}
+
+.top {
+  animation: animateTop 3s ease-in-out infinite;
+}
+
+.bottom {
+  animation: animateBottom 3s ease-in-out infinite;
+}
+
+.right {
+  animation: animateRight 3s ease-in-out infinite;
+}
+
+.left {
+  animation: animateLeft 3s ease-in-out infinite;
+}
+
+@keyframes animateTop {
+  25% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  30%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateBottom {
+  0%,
+  50% {
+    opacity: 0;
+    width: 0;
+  }
+
+  75% {
+    opacity: 1;
+    width: 100%;
+  }
+
+  76%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateRight {
+  0%,
+  25% {
+    opacity: 0;
+    height: 0;
+  }
+
+  50% {
+    opacity: 1;
+    height: 100%;
+  }
+
+  55%,
+  100% {
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes animateLeft {
+  0%,
+  75% {
+    opacity: 0;
+    bottom: 0;
+    height: 0;
+  }
+
+  100% {
+    opacity: 1;
+    height: 100%;
+  }
+}
+
+        </style>
+    <center>
+        <img src="title.png">
+<br>
+    <br>
+        <br> 
+             
+<link rel="stylesheet" href="style.css" type="text/css">
+<font size= "5" color="#FFD700	" class="font1"><b><u>Project 1</b></u></font>
+        
+            <br>
+            <br>
+        
+        <div>
+<table class="center">
+
+<tbody><tr>
+          <td><a href="index.html"> Project 1</a></td>
+        <td> | </td>
+        <td><a href="Index2.html"> Project 2</a></td>
+        <td> | </td>
+        <td><a href="index3.html">Reflection</a></td>
+        <td> | </td>
+        <td><a href="index4.html"> Works Cited</a></td>
+    </tr>
+
+    </tbody></table>
+        </div>
+        </center>
+<br>
+        <br>
+        <br>
+<br>
+                <center>
+   <article class="card">
+ <iframe src="https://fsu-my.sharepoint.com/personal/erz23_fsu_edu/_layouts/15/Doc.aspx?sourcedoc={7ca2a3fb-855e-4268-8bea-ec59d0217462}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="950px" height="450px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+
+  <p>
+  
+  </p>
+  <span class="top"></span>
+  <span class="right"></span>
+  <span class="bottom"></span>
+  <span class="left"></span>
+</article>         
+        </center>
+           
+        <br>
+        <br>
+        <br>
+
+<br>
+     
+
+<button type="button"  style="background-color:orange;border-color:orange;color=orange;height:75px;width:117px;float: right;">
+    <a href="Index2.html">Next page!</a>
+    </button>
+    </body>
+        </head>
+</html>
